@@ -1,6 +1,4 @@
 import React from "react";
-
-import TwitterIcon from "@material-ui/icons/Twitter";
 import EmailIcon from "@material-ui/icons/Email";
 import Button from "@material-ui/core/Button";
 import OpenInNewIcon from "@material-ui/icons/OpenInNew";
@@ -20,7 +18,7 @@ function Footer() {
       <Toolbar className={classes.footerIcons}>
         <div>
           <Link
-            href="https://github.com/Juggernaut9"
+            href="https://github.com/Jaideep25"
             target="_blank"
             rel="noopener noreferrer"
             color="inherit"
@@ -34,21 +32,7 @@ function Footer() {
             </IconButton>
           </Link>
           <Link
-            href="https://twitter.com/BhavyaCodes"
-            target="_blank"
-            rel="noopener noreferrer"
-            color="inherit"
-          >
-            <IconButton
-              aria-label="Github"
-              aria-haspopup="true"
-              color="inherit"
-            >
-              <TwitterIcon />
-            </IconButton>
-          </Link>
-          <Link
-            href="mailto:fullmernstack@gmail.com"
+            href="mailto:jaideepch@outlook.com"
             target="_blank"
             rel="noopener noreferrer"
             color="inherit"
