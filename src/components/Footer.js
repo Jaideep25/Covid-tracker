@@ -46,6 +46,7 @@ function Footer() {
             </IconButton>
           </Link>
         </div>
+        <h2>🎀 𝒥𝒶𝒾𝒹𝑒𝑒𝓅𝟤𝟧 🎀</h2>
         <div>
           <Link
             href="https://github.com/covid19india/api"
