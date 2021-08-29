@@ -31,6 +31,12 @@ function Footer() {
               <GitHubIcon />
             </IconButton>
           </Link>
+            <IconButton
+              aria-label="Github"
+              aria-haspopup="true"
+              color="inherit"
+            >
+            </IconButton>
           <Link
             href="mailto:jaideepch@outlook.com"
             target="_blank"
@@ -48,22 +54,18 @@ function Footer() {
         </div>
         <h2>🎀 𝒥𝒶𝒾𝒹𝑒𝑒𝓅𝟤𝟧 🎀</h2>
         <div>
-          <Link
+          <Button
             href="https://github.com/covid19india/api"
             target="_blank"
             rel="noopener noreferrer"
-            color="inherit"
+            variant="contained"
+            color="secondary"
+            disableElevation
+            className={classes.button}
+            endIcon={<OpenInNewIcon />}
           >
-            <Button
-              variant="contained"
-              color="secondary"
-              disableElevation
-              className={classes.button}
-              endIcon={<OpenInNewIcon />}
-            >
-              API
-            </Button>
-          </Link>
+            API
+          </Button>
         </div>
       </Toolbar>
     </AppBar>

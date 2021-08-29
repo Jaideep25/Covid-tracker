@@ -97,7 +97,7 @@ function App() {
                         {darkState ? <Brightness7Icon /> : <Brightness4Icon />}
                       </IconButton>
                       <Link
-                        href="https://github.com/Jaideep25/Covid-tracker"
+                        href="https://github.com/Jaideep25/Covid-Tracker"
                         target="_blank"
                         rel="noopener noreferrer"
                         color="inherit"
